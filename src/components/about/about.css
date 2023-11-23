@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general1{
+    width: 100%;
+    height: 90vh;
+    background-color: #000000;
+    background-image: url(./img/93880.jpg);
+}
+.tex{
+    width: 100%;
+    height: 60px;
+}
+.forcarusel{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forpct{
+    width: 90%;
+    height: 500px;
+    /* border: 4px solid snow; */
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.forimg{
+    width: 500px;
+    height: 490px;
+    background-image: url(./img/photo_2023-11-20\ 19.15.48.jpeg);
+    background-size: cover;
+}
+
+
+.fortext{
+    width: 900px;
+    height: 490px;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 24px;
+
+}

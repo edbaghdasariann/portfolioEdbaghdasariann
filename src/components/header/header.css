@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.forheader{
+    width: 90%;
+    height: 140px;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: #24262b;
+    border-radius: 20px;
+}
+
+.leftnav{
+    width: 40%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+
+.rightnav{
+    width: 60%;
+    height: 170px;
+    /* border: 1px solid black; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.forlogo{
+    width: 250px;
+    height: 125px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    /* border: 1px solid black ; */
+
+}
+
+.titlename{
+    font-family: sans-serif;
+    color: #ffffff;
+
+}
+
+
+
+
+.fordepartments{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+
+
+}
+
+.departments{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.departments:hover{
+    color: rgb(111, 0, 195);
+}
+
+.titlename:hover{
+    color: rgb(70, 2, 93);
+}
+
